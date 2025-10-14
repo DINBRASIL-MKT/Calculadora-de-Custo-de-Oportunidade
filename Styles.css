@@ -18,19 +18,21 @@ body {
 .container {
   background-color: white;
   width: 90%;
-  max-width: 420px;
+  max-width: 520px;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(67, 88, 115, 0.2);
   padding: 30px 20px 40px;
   text-align: center;
   box-sizing: border-box;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .din {
-  width: 50%;
+  width: 100%;
   max-width: 150px;
   height: auto;
-  margin: 0 auto 20px;
+  
   display: block;
 }
 
@@ -114,6 +116,25 @@ button:hover {
   font-size: 13px;
   color: #777;
 }
+
+.descricao {
+  font-size: 13px;
+  color: #555;
+  margin: 5px 0 15px 0;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.descricao-input{
+    font-size: 13px;
+  color: #555;
+  margin: 5px 0 15px 0;
+  line-height: 1.4;
+  text-align: left;
+}
+
+
+
 
 @media (max-width: 768px) {
   .container {
