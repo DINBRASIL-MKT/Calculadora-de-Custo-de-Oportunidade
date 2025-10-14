@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./Styles.css">
-<title>Calculadora de Perda Mensal</title>
+<title>Calculadora de Custo de Oportunidade</title>
 
 </head>
 
@@ -17,21 +17,24 @@
     <div class="logo"><img src="./img/logo_DIN.png" class="din"></div>
 
     <h2>Calculadora de Perda Mensal</h2>
+    <p>Este é um modelo de cálculo para estimar a perda financeira por não ter um atendimento ágil e automatizado no WhatsApp. Fique atento aos seus dados e veja como otimizar o seu atendimento inicial pode ter impacto significativo na sua estratégia!</p>
 
     <div class="alinhar-inputs">
 
         
-        <label for="L">Leads Mensais (L)</label>
+        <label for="L">Nº de leads/mês recebidos via WhatsApp</label>
         <input type="number" id="L" placeholder="Ex: 500">
         
-        <label for="TA">Taxa de Abandono (%)</label>
-        <input type="number" id="TA" placeholder="Ex: 30">
+        <label for="TA">Taxa de Abandono por Demora (%):</label>
+        <p>Qual porcentagem desses leads você acredita que desiste ou vai para um concorrente porque a resposta demorou mais de 15 minutos? (estimativa conservadora de mercado: entre 20% e 40%)</p>
+        <input type="number" id="TA" placeholder="Ex: 30%">
         
         <label for="TM">Ticket Médio (R$)</label>
         <input type="number" id="TM" placeholder="Ex: 2000">
         
-        <label for="TC">Taxa de Conversão (%)</label>
-        <input type="number" id="TC" placeholder="Ex: 25">
+        <label for="TC">Taxa de Conversão Média (TC):</label>
+        <p>Dos leads com quem você efetivamente conversa, qual porcentagem se torna cliente?</p>
+        <input type="number" id="TC" placeholder="Ex: 25%">
 
 
     </div>
