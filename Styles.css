@@ -3,7 +3,7 @@ body {
   background-color: #f5f7fa;
   color: #333;
   margin: 0;
-  padding: 30px;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +26,8 @@ body {
   box-sizing: border-box;
   margin-top: 100px;
   margin-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .din {
