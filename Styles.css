@@ -1,0 +1,161 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("./img/FUNDO-DIN.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: white;
+  width: 90%;
+  max-width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(67, 88, 115, 0.2);
+  padding: 30px 20px 40px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.din {
+  width: 50%;
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.logo {
+  margin: 0 auto 20px;
+  background-color: #e3e7ed;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #435873;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+}
+
+h2 {
+  color: #435873;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  color: #435873;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.alinhar-inputs {
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #435873;
+  box-shadow: 0 0 0 2px rgba(67, 88, 115, 0.2);
+}
+
+button {
+  background-color: #435873;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 25px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #36475f;
+}
+
+#resultado {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #435873;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 25px 15px 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 9px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 20px 10px 25px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  input {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .din {
+    width: 60%;
+  }
+}
