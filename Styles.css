@@ -134,6 +134,7 @@ button:hover {
 
 .mensagem-especialidade{
   display: none;
+  font-size: 16px;
 }
 
 .cta-button{
