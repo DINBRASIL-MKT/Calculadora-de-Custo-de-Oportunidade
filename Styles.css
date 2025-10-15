@@ -26,20 +26,17 @@ body {
   box-sizing: border-box;
   margin-top: 100px;
   margin-bottom: 100px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .din {
   width: 100%;
   max-width: 150px;
   height: auto;
-  
   display: block;
 }
 
 .logo {
-  margin: 0 auto 20px;
+
   background-color: #e3e7ed;
   border-radius: 10px;
   display: flex;
@@ -120,7 +117,7 @@ button:hover {
 }
 
 .descricao {
-  font-size: 13px;
+  font-size: 14px;
   color: #555;
   margin: 5px 0 15px 0;
   line-height: 1.4;
@@ -133,6 +130,19 @@ button:hover {
   margin: 5px 0 15px 0;
   line-height: 1.4;
   text-align: left;
+}
+
+.mensagem-especialidade{
+  display: none;
+}
+
+.cta-button{
+  background-color: #d35800;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 2px;
+  box-shadow: #000000 0px 1px 15px;
 }
 
 
